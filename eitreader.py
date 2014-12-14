@@ -81,7 +81,7 @@ class eitreader():
             raise Exception('Wrong data!')
         
         (header,i) = self._parse_headers(data,TS_HEADER_BITS,TS_HEADER_NAMES)        
-        # Dont chech i is not null because we already checked that data is 188 lenght
+        # Don't check i is not null because we already checked that data is 188 length
         
         if header['pusi'] != 0:
             i += 1
