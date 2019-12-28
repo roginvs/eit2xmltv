@@ -166,7 +166,8 @@ class eitreader():
                                   0x05:'ISO-8859-9',0x06:'ISO-8859-10',0x07:'ISO-8859-11',0x08:None,
                                   0x09:'ISO-8859-13',0x0A:'ISO-8859-14',0x0B:'ISO-8859-15',
                                   0x0C:None,0x0D:None,0x0E:None,0x0F:None,                                  
-                                  0x10:None,0x11:None,0x12:None,0x13:None,0x14:None,0x15:None, # FIXME and TODO: FILL 0x10-0x15
+                                  0x10:None,0x11:'utf_16_be',0x12:'euc_kr',0x13:'gb2312',
+                                  0x14:'big5',0x15:'UTF-8', # FIXME and TODO: Fix 0x10 "dynamic" encoding
                                   0x16:None,0x17:None,0x18:None,0x19:None,0x1A:None,0x1B:None,
                                   0x1C:None,0x1D:None,0x1E:None,
                                   0x1F:None
